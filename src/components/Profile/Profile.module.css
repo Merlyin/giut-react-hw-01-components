@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    /* height: 100vh; */
+  }
+  /* .description{
+    display: flex;
+  } */
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 1);
+  }
+  
+  .avatar {
+    margin-top: 30px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .tag,
+  .location,
+  .label {
+    opacity: 75%;
+  }
+  
+  .stats {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(236, 233, 233);
+  }
+  
+  .label {
+    display: flex;
+    gap: 15px;
+  }
